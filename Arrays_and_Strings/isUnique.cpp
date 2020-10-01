@@ -5,7 +5,6 @@ using namespace std;
 //There are four ways to solve this problem.Methods are listed in order of their efficiency
 //1.Brute force - using two loops,it takes O(n^2) time
 
-
 bool bruteforce_isUnique(const string &str)
 {
 	for(int i=0;i<str.length()-1;i++)
@@ -98,7 +97,7 @@ int main()
 	cout<<"1.using hashing"<<endl;
 	for(auto it:vec)
 	{
-		cout << it <<string(": ") << boolalpha<< hashing_isUnique(it) <<endl;
+		cout << it <<string(": ") << boolalpha<< hashing_isUnique(it) <<endl;  //boolalpha displays true or false instead of 1 or 0
 	}
 	cout<<endl;
 
