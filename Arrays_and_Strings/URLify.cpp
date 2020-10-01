@@ -3,6 +3,7 @@ using namespace std;
 
 //repalcing space by %20 in given string;
 
+
 void URLify(char *str,int len)
 {
 	int noofspaces=0;
