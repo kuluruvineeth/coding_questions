@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 //There are two ways to solve this problem.
 //1.sorting - sorting both strings and then comparing each other.It takes O(nlogn) time
 //2.hashing - using array to store 1 or 0.It takes O(n) time
