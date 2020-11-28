@@ -1,4 +1,7 @@
-//Given an array of integers, every element appears twice except for one. Find that single one.
+/*Given an array of integers, every element appears twice except for one. Find that single one.
+Example : [1,2,4,4,2]
+Output : 1 */
+
 
 #include <bits/stdc++.h>
 using namespace std;
